@@ -1,0 +1,41 @@
+:root {
+    --space-cadet: #2b2d42;
+    --manatee: #8d99ae;
+    --alice-blue: #edf2f4;
+    --imperial-red: #ef233c;
+    --amaranth-red: #d90429;
+    --white-background: white;
+    --shadow-cont: 0px 6px 6px #00000029;
+}
+
+/* catalogo styles */
+
+.main-catalogue {
+    margin: 3em 0;
+}
+
+.main-catalogue h1 {
+    color: var(--space-cadet);
+}
+
+.main-catalogue .prod-cat .prod-image img {
+    max-width: 20em;
+    object-fit: cover;
+}
+
+.main-catalogue .prod-cat .col-8 {
+    display: flex;
+    align-items: center;
+}
+
+.main-catalogue .prod-cat .col-4 {
+    text-align: center;
+}
+
+.main-catalogue .prod-cat .prod-cat-description h2 {
+    color: var(--space-cadet);
+}
+
+.main-catalogue .prod-cat .prod-cat-description p {
+    color: var(--manatee);
+}
